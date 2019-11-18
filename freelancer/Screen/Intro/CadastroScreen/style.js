@@ -47,7 +47,7 @@ const stylesCadastroScreen = StyleSheet.create({
 	justifyContent: 'center',
     paddingLeft: 5,
     backgroundColor: '#FFF',
-    width: 220,
+    width: 215,
     height: 35,
   },
   ContainerTextEfetuarCadastro:{
