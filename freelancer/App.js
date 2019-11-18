@@ -10,3 +10,6 @@ export default class App extends React.Component {
     return <FreelancerNavigator />;
   }
 }
+
+//alert para o botao de log in quando o usuário não está cadastrado no banco
+//The component for route 'Home' must be a React component.

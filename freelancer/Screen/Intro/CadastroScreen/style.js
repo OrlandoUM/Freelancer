@@ -5,9 +5,10 @@ const stylesCadastroScreen = StyleSheet.create({
     flex: 1,
   },
   PaginaCadastro:{
-	backgroundColor: '#914ce0',
+    flex: 1,
+	  flexDirection: 'column',
     paddingTop: 30,
-    flexDirection: 'column',
+    backgroundColor: '#914ce0',
   },
   ImageStyle:{ 
 	height: 30, 
@@ -18,7 +19,7 @@ const stylesCadastroScreen = StyleSheet.create({
 	paddingBottom: 20,
   },
   ContainerTextInput:{
-	justifyContent: 'center',
+	  justifyContent: 'center',
     paddingLeft: 5,
     marginBottom: 20,
     backgroundColor: '#FFF',

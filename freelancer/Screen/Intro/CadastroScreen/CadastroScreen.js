@@ -334,10 +334,9 @@ export default class CadastroScreen extends React.Component {
     return (
       <KeyboardAvoidingView behavior="padding" style={stylesCadastroScreen.Pagina} enabled>
         <SafeAreaView style={stylesCadastroScreen.Pagina}>
-          <ScrollView>
-            <View
-              style={stylesCadastroScreen.PaginaCadastro}>
-              <View style={{ flexDirection: 'row' }}>
+          <ScrollView style={stylesCadastroScreen.PaginaCadastro}>
+            <View>
+              <View style={{ flexDirection: 'row', paddingTop: 20, }}>
                 <TouchableHighlight
                   style={{ paddingLeft: 20 }}
                   onPress={() => this.props.navigation.navigate('Home')}>
@@ -390,6 +389,7 @@ export default class CadastroScreen extends React.Component {
                     style={ stylesCadastroScreen.ContainerTextInput }>
                     <TextInput
                       placeholder="Nascimento - DDMMYYY"
+                      keyboardType = "numeric"
                       returnKeyType="next"
                       onChangeText={textInputNasc =>
                         this.setState({ textInputNasc })

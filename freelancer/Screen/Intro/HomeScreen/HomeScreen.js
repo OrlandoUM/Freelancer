@@ -86,8 +86,8 @@ export default class HomeScreen extends React.Component {
                 paddingBottom: 10,
               }}>
               <Image
-                style={{ width: 120, height: 120 }}
-                source={require('../../../Image/20294.png')}
+                style={{ width: 180, height: 150 }}
+                source={require('../../../Image/Freelaqui.png')}
               />
             </View>
 
